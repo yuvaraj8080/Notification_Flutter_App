@@ -191,6 +191,7 @@ class NotificationService {
       ),
     );
 
+    //// CONDITION FOR THE SPECIFIC SCREEN /////
     // if (message.data['screen'] == 'cart') {
     //   Navigator.push(
     //     context,

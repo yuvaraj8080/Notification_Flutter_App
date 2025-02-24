@@ -48,6 +48,8 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+//// FUNCTION FOR THE TO SEND THE NOTIFICATION BASED ON THE SUSCRIBE CHANNEL  //////
+// HARE WE HAVE PASS THE "all" FOR THE SUSCRIBE TO THE CHANNEL  //// ALSO WE CAN THE USER TOPIC LIKE MATH ////
 void subscribe() {
   FirebaseMessaging messaging = FirebaseMessaging.instance;
 

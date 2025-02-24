@@ -23,7 +23,6 @@ class NotificationController extends GetxController {
         .listen(
       (QuerySnapshot querySnapshot) {
         notificationCount.value = querySnapshot.docs.length;
-        print("Notification lenghth => ${notificationCount.value}");
         update();
       },
     );
